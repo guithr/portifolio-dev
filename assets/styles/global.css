@@ -25,11 +25,13 @@
 
 /* Title fonts properties */
 .title-lg {
+  font-family: "Asap", sans-serif;
   font-size: 3.5rem;
   /* font-weight: 700; */
   line-height: 120%;
 }
 .title-md {
+  font-family: "Asap", sans-serif;
   font-size: 1.5rem;
   /* font-weight: 700; */
   line-height: 120%;
@@ -62,6 +64,7 @@
   line-height: 140%;
 }
 
+/* RESET IMAGES PROPERTIES */
 img {
   max-width: 100%;
   height: auto;
@@ -70,4 +73,20 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   shape-margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background-color: var(--gray-300);
+  color: var(--gray-500);
 }
