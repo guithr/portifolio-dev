@@ -71,6 +71,13 @@
   justify-content: center;
 }
 
+.radius-8 {
+  border-radius: 8px;
+}
+.radius-12 {
+  border-radius: 12px;
+}
+
 /* RESET IMAGES PROPERTIES */
 img {
   max-width: 100%;
@@ -96,4 +103,27 @@ a {
   border-radius: 999px;
   background-color: var(--gray-300);
   color: var(--gray-500);
+}
+
+section {
+  > h2 {
+    color: var(--red);
+  }
+
+  > p {
+    color: var(--gray-600);
+    margin-block: 0.5rem 3.5rem;
+  }
+}
+
+.card-desc {
+  gap: 0.5rem;
+  align-items: start;
+
+  h3 {
+    color: var(--gray-600);
+  }
+  p {
+    color: var(--gray-500);
+  }
 }
