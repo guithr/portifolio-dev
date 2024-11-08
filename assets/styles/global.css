@@ -110,10 +110,20 @@ section {
     color: var(--red);
   }
 
-  > p {
+  > p:first-of-type {
     color: var(--gray-600);
-    margin-block: 0.5rem 3.5rem;
   }
+  > p:last-of-type {
+    margin-block: 0.5rem 3.5rem;
+    color: var(--gray-500);
+  }
+}
+
+.background {
+  background-image: url(../images/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card-desc {
